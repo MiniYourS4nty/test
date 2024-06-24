@@ -7,7 +7,7 @@ const port = process.env.PORT || 3000;
 
 app.use(express.static(path.join(__dirname, 'public')));
 
-const botUsername = 'Test'; // Replace with your desired bot username
+const botUsername = 'YourS4nty'; // Replace with your desired bot username
 const botServer = '104.128.55.48'; // Replace with the Minecraft server address
 const botPort = 25571; // Replace with the Minecraft server port
 
