@@ -25,9 +25,9 @@ function startBot() {
             console.log('Bot spawned.');
             bot.chat('/login holaxd');
             // bot.chat('/login Medellin1!');
-            bot.setControlState('jump', true);
+            //bot.setControlState('jump', true);
             setTimeout(() => {
-                bot.chat('Hola :D');
+                bot.chat('Hola :P');
             }, 3000);
         });
         botRunning = true;
@@ -46,7 +46,7 @@ function stopBot() {
 // Express routes
 app.get('/start', (req, res) => {
     startBot();
-    res.send('Bot started.');
+    res.send('Bot started And Spawned.');
 });
 
 app.get('/stop', (req, res) => {
